@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+ }
+
+ div{
+     display: flex;
+ }
+
+.container {
+    display: block;
+    height: auto;
+    color: #333;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color:#FAFAAF;
+}
+
+p{
+    text-align:left;
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+    word-wrap: break-word;
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}

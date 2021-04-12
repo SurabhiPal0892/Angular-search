@@ -1,0 +1,5 @@
+<div style="text-align: center;">
+    <input type="text" class="search-input" [formControl]="searchText">
+    <button type="submit" class="search-btn" (click)="searchOnBtnClick()"><i class="fa fa-search"></i></button>
+</div>
+<app-search-results [searchVal]="value"></app-search-results>

@@ -1,0 +1,17 @@
+<!-- <div class="container">
+    <div class="result-box" *ngFor="let result of searchResults">
+         <p>{{result.name}}</p>
+        <p>{{result.email}}</p>
+        <p>{{result.body}}</p> 
+    </div>
+</div> -->
+<ng-container *ngFor="let result of searchResults; let i=index">
+    <div class="container" *ngIf="i<20">
+        <p>{{result.name}}</p>
+        <p>{{result.email}}</p>
+        <p>{{result.body}}</p>
+    </div>
+</ng-container>
+<div class="container" *ngIf="searchResults?.length==0">
+    <b>No results found !!</b>
+</div>

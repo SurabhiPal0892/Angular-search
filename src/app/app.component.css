@@ -1,0 +1,11 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.footer{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+}
